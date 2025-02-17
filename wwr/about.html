@@ -15,48 +15,79 @@
         <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Joti+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <img src="images/z-downriver.png" alt="Down the River Logo">
-            <nav class="headernav">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
+        <header id="header-flex">
+            <div id="nav-flex">
+                <img src="images/z-downriver.png" alt="Down the River Logo">
+                <nav class="headernav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="trips.html">Trips</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+            </div>
         </header>
         <main>
             <div class="hero">
-                <img class="heroimg" src="images/rafting18_600.jpg" alt="Rafting background">
-                <h1>Down the River Rafting</h1>
-                <article>
-                    <img class="happycustomer" src="images/little-whitewater-rafter-happy-girl.jpg" alt="Happy little girl rafter">
-                    <p>Watered Down - In a Good Way!</p>
-                </article>
+                <!-- <img class="heroimg" src="images/rafting18_600.jpg" alt="Rafting background"> -->
+                <div class="one">
+                    <h1 class="center">Down the River Rafting</h1>
+                    <article class="article">
+                        <p class="float-left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <img id="happycustomer" class="float-right" src="images/little-whitewater-rafter-happy-girl.jpg" alt="Happy little girl rafter">
+                    </article>
+                </div> 
             </div>
-            <section>
+            <section id="two">
                 <h2>History</h2>
-                <p>It All Started With a Dream and a River...</p>
+                <div class="history-cont">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <img class="history-img" src="images/rafting20_600.jpg" alt="Paddles">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
             </section>
-            <section>
+            <section id="three">
                 <h2>Adventure Awaits You!</h2>
-                <img src="images/rafting26_600.jpg" alt="rafting1">
-                <img src="images/rafting58_600.jpg" alt="rafting2">
-                <img src="images/rafting59_600.jpg" alt="rafting3">
-                <img src="images/rafting64_600.jpg" alt="rafting4">
-                <img src="images/rafting65_600.jpg" alt="rafting5">
+                <div class="adventure-section">
+                    <figure>
+                        <img src="images/rafting26_600.jpg" alt="rafting1">
+                        <figcaption>Big Bear Rapids</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting58_600.jpg" alt="rafting2">
+                        <figcaption>Idaho Falls</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting59_600.jpg" alt="rafting3">
+                        <figcaption>Clear Creak</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting64_600.jpg" alt="rafting4">
+                        <figcaption>Half Day Adventure</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting65_600.jpg" alt="rafting5">
+                        <figcaption>Full Day Adventure</figcaption>
+                    </figure>
+                </div>
             </section>
         </main>
         <footer>
-            <p>© 2025, Down the River Rafting, Annie Thurston</p>
-            <nav class="sociallinks">
+            <p class="footer-text">© 2025, Down the River Rafting, Annie Thurston</p>
+            <nav class="sociallinks" id="sociallinks">
                 <a href="https://facebook.com">
-                    <img src="images/Facebook.webp" alt="Facebook">
+                    <img class="social-img" src="images/Facebook.webp" alt="Facebook">
                 </a>
                 <a href="https://twitter.com">
-                    <img src="images/X-128.webp" alt="Twitter">
+                    <img class="social-img" src="images/X-128.webp" alt="Twitter">
                 </a>
                 <a href="https://instagram.com">
-                    <img src="images/instagram.webp" alt="instagram">
+                    <img class="social-img" src="images/instagram.webp" alt="instagram">
                 </a>
             </nav>
         </footer>

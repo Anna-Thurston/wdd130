@@ -7,52 +7,226 @@
     --accent2-color: #C1666B; 
 }
 
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* .headernav{
+  justify-content: space-around;
+} */
+
+.headernav a{  
+    flex: 1 1 auto;
+    padding-right: 10px;
+    width:80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#header-flex{
+  display: grid !important;
+  /* grid-auto-flow: column; */
+  /* grid-template-columns: 1fr; */
+}
+
+#header-flex img {
+    margin: 0 0.25rem 0 1rem;
+	max-width: 100px;
+	height: auto;
+    
+}
+
+#nav-flex{
+  display: flex;
+  align-items: center;
+}
+
+
+nav{
+  display: flex;
+}
+
 h1, h2 {
     font-family: 'Henny Penny', Georgia, serif;
     color: #C1666B;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+  font-size: 50px !important;
+  font-weight:200;
+  padding-top:10px;
 }
 
 p {
     font-family: 'Roboto', Arial, sans-serif;
     color: #48A9A6;
+    padding: 10px;
 }
 
-.sociallinks {
-    text-decoration: none;
-}
-
+/* 
 main {
     max-width: 840px;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero img{
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-}
-
-.hero article {
-    position: absolute;
-}
-
-.happycustomer {
-    float: right;
-}
+} */
 
 header {
 	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 1fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+	/* display: grid; */
+	/* grid-template-columns: 4; */
+	/* align-items: center; */
+	/* border-bottom: 1px solid #ccc; */
+	/* max-width: 1000px; */
+}
+
+.hero{
+    position: relative !important;
+    width: 100%;
+    height: auto;
+    background-image: url('../images/rafting18_600.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .heroimg{
+    min-width: 100% !important;
+    position: absolute !important;
+    min-width: 100vw;
+} */
+
+.hero img{
+    display: flex;
+    display: block;
+    /* position: absolute; */
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+/* .one{
+  position: absolute !important;
+  padding: 20px;
+  min-width: 100vw;
+  width: 100%;
+  height: 100%;
+} */
+  
+/* .float-right{
+    float: right;
+    max-width:50% !important; 
+} */
+
+/* .float-left{
+    float: left !important;
+    max-width:50% !important;
+  } */
+
+.article {
+    display: block;
+    /* position: absolute; */
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+/* .article::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.history-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    align-content: center;
+}
+
+.history-cont::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* .history-img {
+    box-sizing: border-box;
+} */
+  
+#happycustomer{
+    max-width:100px !important;
+    padding: 10px;
+}
+
+#two {
+    margin-top: 10vw;
+}
+  
+#three {
+    margin-top: 30vw;
+}
+
+.history-img {  
+    padding: 10px;
+    max-height: 100px;
+    width: auto;
+}
+/* section{
+    margin-top: 52vw;
+} */
+
+h2 {
+    margin: auto;
+}
+
+.adventure-section{
+    margin: auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    text-align: center;
+    /* margin: 0; */
+}
+
+.adventure-section img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120px;
+    padding: 10px;
+}
+
+#sociallinks {
+    margin-left: auto;
+    padding: 10px;
+}
+
+#sociallinks img {
+    max-width: 30px;
+    height: auto;
+
+}
+
+#sociallinks a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+}
+
+.footer-text {
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
 }
