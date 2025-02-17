@@ -56,9 +56,9 @@ nav ul li a {
     
 }
 
-#nav-flex{
-  display: flex;
-  align-items: center;
+#nav-flex {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -69,10 +69,10 @@ h1, h2 {
     padding: 10px;
 }
 
-h1{
-  font-size: 50px !important;
-  font-weight:200;
-  padding-top:10px;
+h1 {
+    font-size: 50px;
+    font-weight:200;
+    margin: auto;
 }
 
 p {
@@ -101,8 +101,6 @@ header {
     border-style: solid;
     border-color: black;
     position: relative !important;
-    width: 100%;
-    height: auto;
     background-image: url('../images/rafting18_600.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,14 +184,8 @@ header {
     max-width:100px !important;
     padding: 10px;
 }
-
-#two {
-    border-style: solid;
-    border-color: black;
-	margin: 1rem auto;
-}
   
-#three {
+#one, #two, #three {
     border-style: solid;
     border-color: black;
 	margin: 1rem auto;
