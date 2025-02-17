@@ -8,6 +8,7 @@
 }
 
 * {
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -248,7 +249,7 @@ h2 {
     padding: 1rem;
     background-color: #E4DFDA;
     border: 1px solid;
-    margin: o.5em;
+    margin: 0.5em;
 }
 
 .employees {
