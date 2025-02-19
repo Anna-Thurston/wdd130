@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Joti+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
-
 :root {
     --primary-color: #48A9A6;
     --secondary-color: #E4DFDA;
@@ -11,11 +9,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-div {
-    display: block;
-    unicode-bidi: isolate ;
 }
 
 header {
@@ -39,6 +32,7 @@ nav {
 }
 
 nav a {
+    font-size: larger;
     text-decoration: none;
     color: var(--secondary-color);
 }
@@ -183,57 +177,55 @@ section h2 {
 .grid-item p {
     font-size: larger;
 }
-/* 
-h1 {
-    font-size: 50px;
-    font-weight:200;
-    margin: auto;
-} */
 
-/* p {
-    font-family: 'Roboto', Arial, sans-serif;
-    color: black;
-    padding: 10px;
-} */
-
-
-/* .article {
-    border-style: solid;
-    border-color: black;
-    background-color: #E4DFDA;
-    display: block;
-    display: flex;
-    width: 100%;
-    height: auto;
-} */
-
-.history-cont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    align-content: center;
+.trips {
+    gap: 20px;
+    background-color: #D4B483;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 0.5em;
+   
 }
 
-/* .history-img::after {
-    content: "";
-    clear: both;
-    display: table;
-} */
+.trip img {
+    width: 100%;
+    height: auto;
+}
 
-/* .history-img {
-    box-sizing: border-box;
-} */
-  
+.trip p {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+}
 
-  
-/* #one, #two, #three, footer {
-    border-style: solid;
-    border-color: black;
-	margin: 1rem auto;
-} */
+.trip {
+    margin: 1em;
+}
+
+.trip-table-container {
+    display: flex;
+    margin: 0.5em;
+    height: 400px;
+    background-color: var(--secondary-color);
+}
+
+.trip-table {
+    border: 1px solid;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+thead th {
+    background-color: var(--accent2-color);
+    font-size: 1.3rem;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+
+}
 
 #history {
     margin: 0 0.5em;
@@ -250,13 +242,6 @@ iframe {
     padding: .5rem;
     border: none;
 }
-/* section{
-    margin-top: 52vw;
-} */
-
-/* h2 {
-    margin: auto;
-} */
 
 .adventure-section{
     padding: 10px;
@@ -283,10 +268,14 @@ iframe {
     margin: 10px 10px;
 }
 
+#contact-container {
+    background-color: #D4B483;
+    margin: 0.5em;
+}
+
 #employee-profiles {
     padding: 1rem;
-    background-color: #E4DFDA;
-    border: 1px solid;
+    background-color: var(--accent2-color);
     margin: 0.5em;
 }
 
@@ -367,6 +356,7 @@ button, #call-to-action a {
 
 footer {
     display: flex;
+    background-color: var(--primary-color);
 }
 
 .footer-text {
