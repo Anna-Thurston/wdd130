@@ -34,7 +34,7 @@ nav {
 nav a {
     font-size: larger;
     text-decoration: none;
-    color: var(--secondary-color);
+    color: black;
 }
 
 .hero {
