@@ -227,8 +227,14 @@ th, td {
 
 }
 
+.history-cont {
+    display: flex;
+    padding: 10px;
+}
+
 #history {
-    margin: 0 0.5em;
+    margin: 10px;
+    background-color: var(--accent1-color);
 }
 
 .history-img {  
@@ -241,6 +247,11 @@ iframe {
     width: 100%;
     padding: .5rem;
     border: none;
+}
+
+#adventure {
+    margin: 10px;
+    background-color: var(--accent2-color);
 }
 
 .adventure-section{
